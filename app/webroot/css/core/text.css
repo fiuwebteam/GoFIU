@@ -1,0 +1,265 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+    font-size: 75%;
+    font-family:'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+    line-height: 1.5em;
+	/*font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;*/
+	/*font-size:62.5%;
+	font:'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+	line-height: 1.5;	*/
+}
+
+html>body{
+	font-size:12px;
+}
+
+
+a:focus {
+	outline: 1px dotted;
+}
+
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+/*
+Vertical Rhythm in play
+  font size for px to em: font-size (px) of heading / base font-size = em font size
+  line height for headings: base line-height (px or em) / font-size of heading (px or em) = 
+  line-height (calculate with same metrics i.e., em / em)
+*/  
+
+h1 {
+	/*font-size: 25px;*/
+	/*em by default size of 12px*/ 
+	font-size: 2.08em;
+	line-height: 0.72em;
+	margin-bottom: 0.72em;
+	margin-top: 0.72em;
+}
+
+h2 {
+	/*font-size: 23px;*/
+	/*em by default size of 12px*/
+	font-size: 1.92em;
+	line-height: 0.78em;
+	margin-top: 0.78em
+	margin-bottom: 0.78em;
+}
+
+h3 {
+	/*font-size: 21px;*/
+	/*em by default size of 12px*/
+	font-size: 1.75em;
+	line-height: 0.86em;
+	margin-top: 0.86em;
+	margin-bottom: 0.86em;
+}
+
+h4 {
+	/*font-size: 19px;*/
+	/*em by default size of 12px*/
+	font-size:1.6em;
+	line-height: 0.94em;
+	margin-top: 0.94em;
+	margin-bottom: 0.94em;
+}
+
+h5 {
+	/*font-size: 17px;*/
+	/*em by default size of 12px*/
+	font-size: 1.4em;
+	line-height: 1.07em;
+	margin-top: 1.07em;
+	margin-bottom:1.07em;
+}
+
+h6 {
+	/*font-size: 15px;*/
+	/*em by default size of 12px*/
+	font-size: 1.3em;
+	line-height: 1.15em;
+	margin-top:1.15em;
+	margin-bottom:1.15em;
+}
+
+/* `Vertical Rhythm
+----------------------------------------------------------------------------------------------------*/
+.addMargins{
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+}
+.addMarginTop{margin-top:1.5em;}
+
+
+.addMarginsHalf{
+	margin-top:0.75em;
+	margin-bottom:0.75em;
+}
+
+.vMarginTop_0{margin-top:.375em;}
+.vMarginTop_1{margin-top: 0.75em;}
+.vMarginTop_2{margin-top: 1.5em;}
+.vMarginTop_3{margin-top: 2.25em;}
+.vMarginTop_4{margin-top: 3em;}
+.vMarginTop_5{margin-top: 3.75em;}
+.vMarginTop_6{margin-top: 4em;}
+
+.vMarginBottom_1{margin-bottom: 0.75em;}
+.vMarginBottom_2{margin-bottom: 1.5em}
+.vMarginBottom_3{margin-bottom: 2.25em;}
+.vMarginBottom_4{margin-bottom: 3.0em;}
+.vMarginBottom_5{margin-bottom: 3.75em;}
+
+.vPaddingTop_1{
+	padding-top:0.75em;
+}
+.vPaddingTop_2{
+	padding-top:1.5em;
+}
+
+.vPaddingBottom_1{
+	padding-bottom:0.75em;
+}
+.vPaddingBottom_2{
+	padding-bottom:1.5em;
+}
+.vPaddingBottom_3{
+	padding-bottom:2.25em;
+}
+.vPaddingBottom_4{
+	padding-bottom: 3em;
+}
+
+/*Custom Spaces for Tiny URL
+-------------------------------------------------------------------------------------------------------*/
+
+.vMarginTop_3a{
+	margin-top: 2.10em;
+}
+
+.input_TopMargin_0{
+	margin-top:1.1em;
+}
+.littlePush_0{
+	left:10px;
+}
+.littlePush_1{
+	left:15px;
+}
+.littlePush_2{
+	left:20px;
+}
+.littlePush_3{
+	left:25px;
+}
+.littlePush_4{
+	left:30px;
+}
+.littlePush_5{
+	left:35px
+}
+
+
+.prefix_0{
+	margin-left: 10px;
+}
+.prefix_1a{
+	margin-left:22px;
+}
+
+
+
+
+
+.padding_0{padding-left:18px;}
+.padding_1{
+	padding-left:22px;
+}
+.padding_2{
+	padding-left:25px;
+}
+.vNegMargin_0{
+	margin-top: -8px;
+}
+.vNegMargin_1{
+	margin-top: -16px;
+}
+.vNegMargin_2{
+	margin-top:-24px;
+}
+.vNegMargin_3{
+	margin-top:-28px;
+}
+
+
+.negMarginTop_0{
+	 margin-top: -8px; 
+}
+.negMarginTop_1{
+ 	margin-top: -72px;
+}
+/*
+-------------------------------------------------------------------------------------------------------*/
+
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style: disc;
+
+}
+
+li {
+	margin-left: 30px;
+
+}
+
+/*
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset {
+	margin-bottom: 20px;
+}
+*/
+p{
+	line-height: 1.5em;
+	font-size:1em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+
+.error-message{
+  font-size:0.94em;
+}
+.tip{
+  font-size:0.94em;
+}

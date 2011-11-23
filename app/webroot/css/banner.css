@@ -1,0 +1,203 @@
+
+
+a{text-decoration: none;}
+a:visited{text-decoration: none;}
+
+a#spamLink{
+	padding:2px;
+	background: #c1bfb3;
+	color:white; 
+	border: 1px solid #c1bfb3;
+}
+
+a#spamLink:hover{
+	-moz-box-shadow: 1px 1px 2px #888;
+	-webkit-box-shadow: 1px 1px 2px #888;
+	-khtml-box-shadow:	1px 1px 2px #888;
+	background: #d1d0cb;
+}
+a#spamLink:active{
+	border:1px solid #efefef;
+}
+#bar a:visited img,
+	#bar a:link img,
+		#bar a:active img{
+			text-decoration:none; 
+			border: none;
+}
+
+
+.addthis_button{z-index: 200;}
+
+
+#bar{
+	position: absolute;
+	z-index: 9999;
+
+	height: 28px;
+	
+	width:100%;
+	
+	padding: 3px 20px 5px 0;
+	/*background-color: #002d62;*/
+	background:#F2F2F2;
+	-moz-box-shadow: 3px 3px 3px gray;
+	-webkit-box-shadow: 3px 3px 3px gray;
+	-khtml-box-shadow:	3px 3px 3px gray;
+}
+
+
+
+.bannerLogo{
+	/*z-index: 10010;*/
+	float:left;
+	margin-left:15px;
+	
+}
+.toolbarItem{
+ 	/*position: absolute;*/
+	border-left:1px solid #B2B2B2;
+	border-right:1px solid white;
+	
+}
+.bannerLogo img{float: left;margin-right:100px;}
+
+html, body{ margin:0; padding:0; height:100%; }
+
+
+html,body{
+	overflow: hidden;
+	font-family:Arial,Helvetica,sans-serif !important;
+	font-size:12px;
+}
+table{margin-top:-15px;margin-right:10px;}
+table tr td{}
+table tr td#at{
+	vertical-align: top;
+	padding: 10px;
+	width:150px;
+	
+}
+table tr td#click{
+	padding-right:20px;
+	border-left:1px solid #B2B2B2;
+	padding-left: 20px;
+}
+table tr td#spam{
+	padding: 0 5px 0 5px;	
+	border-left:1px solid #B2B2B2;
+	font-size:11px;
+	
+}
+table tr td#spam a{}
+
+table tr td#closeBar{
+	border-left:1px solid #B2B2B2;
+	border-right:1px solid #B2B2B2;	
+	color:#808080;
+	text-align: center;
+	
+}
+table tr td#closeBar img{
+	margin: 0 5px 0 5px;
+}
+table tr td#closeBar img:hover{
+	-moz-box-shadow: 1px 1px 2px #888;
+	-webkit-box-shadow: 1px 1px 2px #888;
+	-khtml-box-shadow:	1px 1px 2px #888;
+}
+
+
+/*
+.iframeDiv {
+	width:100%;
+	height:100%;
+	margin:0;
+	z-index: 10;
+	background-color: gray;
+}
+
+*/
+img#closeBox{
+	margin-top: -16px;
+
+}
+
+/*
+#info{
+		color:black;
+		margin-right: 40px;
+		max-width: 1100px;
+		position: relative;
+		width:100%;
+}*/
+
+/*
+.bannerDiv {
+	position:absolute;
+	width:100%;
+
+	z-index: 1;
+	min-width: 964px;
+	height:55px;
+	background-color: #002d62;
+	margin:0; 
+	color : white;
+	padding:0;
+}
+*/
+
+#tools{
+ 	margin-top:10px;
+ 	float: right;
+ 
+}	
+.urlFrame {
+	width:100%;
+	height: 99%;
+	z-index: 0;
+	margin-top:40px;
+	
+	border:none; 
+	-webkit-box-sizing:border-box;
+}
+
+/* Multi Bunch Banner
+*********************************/
+
+
+div{}
+	.multiurl{
+		margin-top:5px;
+		width:600px;
+		float: right;
+	}
+	.multiurl div{
+		display: inline;
+	}
+
+	.multiurl .divBunch{padding:10px;margin:10px;}
+
+label{}
+	.labelBunch{padding: 0 5px 0 5px;}
+
+select{} 
+	.selectBunch{padding: 0 15px 0 5px;}
+	
+input{}
+	div.divSubmit input{
+		margin:0;
+		padding:2px;
+		background: #c1bfb3;
+		color:white; 
+		border: 1px solid #c1bfb3;
+	}
+	div.divSubmit input:hover{
+		-moz-box-shadow: 1px 1px 2px #888;
+		-webkit-box-shadow: 1px 1px 2px #888;
+		-khtml-box-shadow:	1px 1px 2px #888;
+		background: #d1d0cb;
+	}
+	div.divSubmit input:active{
+		border:1px solid #efefef;
+	}

@@ -1,0 +1,28 @@
+/*-----------------------------------------------
+Site: FIU Tiny URL
+Author: Fabian Alcantara
+Description: I hate IE.css
+----------------------------------------------- */
+
+/*Banner.css
+------------------------------------------------ */
+div{}
+	#bar{border-bottom: solid thin black;}
+	#my_clip_button{display: none;}
+	
+	
+.urlFrame{
+		margin:0;
+	}
+
+	
+select{} 
+	.selectBunch{
+		padding: 0;
+	}
+.vNegMargin_3{
+	margin-top:-28px;
+}
+.urlFrame {
+	margin:40px 0 0 0;
+}

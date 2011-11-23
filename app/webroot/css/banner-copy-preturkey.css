@@ -1,0 +1,38 @@
+html, body { margin:0; padding:0; height:100%; }
+
+.bannerDiv {
+	position:absolute;
+	width:100%;
+
+	z-index: 1;
+	min-width: 964px;
+	height:55px;
+	background-color: #002d62;
+	margin:0; 
+	color : white;
+	padding:0;
+}
+.bannerLogo{
+	width:300px;
+	float: left;
+}
+.tools{
+ 
+}
+
+.bannerDiv a{color : white;}
+
+.iframeDiv {
+	
+	height:100%;
+	margin:0; padding:0;
+	z-index: 1;
+}
+
+.urlFrame {
+	height:100%;
+	display:block; 
+	width:100%; 
+	border:none;
+	margin:0; padding:0;
+}

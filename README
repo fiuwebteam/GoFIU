@@ -1,0 +1,17 @@
+This is the Url Shortner written for FIU 
+
+Requirements:
+mysql
+php
+
+Things to do:
+
+Create a mysql database and use the attached schema (tinyurl.sql)
+
+Make sure your server is configured correctly for CakePHP. (http://cakephp.org/)
+
+Open up the file in /app/config/database.php and input the proper database variables
+
+Open up the file /app/config/core.php and fill in the additional proper variables at the bottom of the file.
+
+

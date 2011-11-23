@@ -1,0 +1,49 @@
+/*-----------------------------------------------
+Site: FIU Tiny URL
+Author: Fabian Alcantara
+Description: worthless IE6.css
+----------------------------------------------- */
+
+/*Banner.css
+------------------------------------------------ */
+div{}
+	#bar{border-bottom: solid thin black; padding-bottom: 5px; padding-top:5px;}
+	#my_clip_button{display: none;}
+	#tools{padding:0;margin:5px 0;}
+	#tools table tbody tr td{padding:14px 5px 0px 5px;}
+	table tr td#at{width:180px;}
+	.multiurl{
+		float: none;
+		margin:0;
+	} 
+	label.labelBunch{margin:0px;padding-top:25px;top:10px;}
+
+/*main.css
+------------------------------------------------ */	
+.urlFrame{
+		margin:0;
+	}
+	
+select{} 
+	.selectBunch{
+		padding: 0;
+	}
+.vNegMargin_3{
+	margin-top:-32px;
+}
+
+label{
+	vertical-align: 8px;
+}
+input.submit{
+	padding:2px;
+}
+
+table.aliases{
+	background: white;
+}
+
+.urlFrame {
+	margin:40px 0 0 0;
+	padding-top:4px;
+}

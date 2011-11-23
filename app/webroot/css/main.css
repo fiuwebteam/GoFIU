@@ -1,0 +1,554 @@
+/*-----------------------------------------------
+Site: FIU Tiny URL
+Author: Fabian Alcantara
+Description: Main CSS
+----------------------------------------------- */
+
+/* Anchor Tags
+----------------------------------------------- */
+/*a#newLink{
+ text-decoration: underline;
+}
+
+/* Buttons & Inputs
+--------------------------- */
+.button, input[type=button], input[type=submit], #page-controls a  { 
+	background: #dad9db;
+	
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	text-decoration:none; 
+	padding:2px 8px 3px 8px !important; 
+	cursor:pointer; 
+	border:1px solid #bbb; 
+	
+	-moz-box-sizing:submit; 
+	-webkit-box-sizing:submit; 
+	-khtml-box-sizing:submit; 
+	box-sizing:submit; color:#464646; 
+	text-shadow:rgba(255,255,255,1) 0 1px 0; 
+	border-color:#888; 
+	color:black; 
+}
+
+input{	
+	 border: 1px solid #666666; 
+}
+
+input.fields{
+	padding:7px;
+	width:300px;
+	vertical-align:2px;
+	margin-left:10px;
+	background: #f7f7f7;
+}
+
+.loginDiv div form div input.fields{
+ 	width:250px;
+}
+.loginDiv span#loginCredential{
+	text-align: center;
+}
+
+input.fields:active{
+	background-color: white;
+}
+input.fields:hover{
+	background-color: white;
+}
+
+input.submit{
+	margin-top:0.1em;
+	padding:5px;  
+	background-color:#e9e9e9;  
+	-webkit- padding:20px;  
+}
+
+input.submit:active{
+	padding-top:6px;
+	border:1px solid black;
+	}
+input.submit:hover{
+	
+}
+
+label{
+	text-transform: lowercase;
+}
+
+.my_clip_button { 
+	width:100px; 
+	text-align:center; 
+		border:1px solid gray; 
+	background-color:#e9e9e9; 
+	margin:2px; 
+	padding:2px; 
+	cursor:default; 
+	font-size:0.90em;
+	
+		border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px; 
+}
+.my_clip_button.hover { 
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray; 
+  }
+.my_clip_button.active { 
+	border:1px solid black; 
+}
+/*
+---------------------------------- */
+
+/* Global
+----------------------------------------------- */
+a {
+	color: #000;
+	
+	line-height: 1em;
+	text-decoration: underline;
+	
+}
+a:hover{
+	color: #002e62;
+	
+
+}
+
+
+
+hr {display: none;}
+
+
+
+/*list reset */
+ol,ul{
+	padding:0;
+	margin:0;
+}
+  ul li{
+  	list-style-type: none;
+  	margin:0;
+  	padding:0;
+  }
+  ol li{
+  	margin-left:40px;
+  	padding-right:10px;
+  }
+
+ul.faq li{
+	list-style-type:square;
+	margin-left:25px;
+	padding-right:20px;
+}
+/**************/  
+
+ul.hMenu{
+	float:left;
+	
+} 
+ul.hMenu li{
+		margin-top:0.75em;
+		margin-bottom:0.75em;
+		margin-left:20px;
+		margin-right:20px;
+	
+}
+
+@font-face{
+	font-family:Nevis; 
+	src: url('nevis.ttf');
+}
+/*@font-face {
+	font-family: StreetCorneSlabBo;
+	font-weight: bold;
+	src: url('StreetCorneSlabBold.ttf');
+}
+*/
+select#BunchUrls{
+	vertical-align: 2px;
+}
+span.gofiu{
+	color:#002e62;
+}
+
+span.go{
+	font-family: Nevis, sans-serif; 
+	font-size: 17em;
+	color:#002d62;
+	letter-spacing: -.13em;	
+	margin-right:30px;
+	
+}
+
+span.formInfo a, 
+	span.formInfo a:active,
+		span.formInfo a:visited{
+	
+	background: url(../img/questionmark.gif) no-repeat;
+	float:right;
+	height:15px;
+	width:15px;
+	margin:0 10px 0 0;
+	text-indent: -9999px;
+	
+}
+/* Images
+----------------------------------------------- */
+img.fiu{
+	margin-right: 20px;
+	margin-left:30px;
+}
+
+
+/* Misc
+----------------------------------------------- */
+.theTip{
+	position: absolute;
+	margin-left:-200px;
+	border-color: transparent transparent transparent #CE6F6F;
+	border-style: solid;
+	border-width: 0px 200px 200px 200px;
+	height: 0px;
+	width: 0px;
+}
+
+/* Structure
+----------------------------------------------- */
+
+
+.aboutGoFIU{
+
+	background-color: #e3f0f5;
+	border:1px solid #a7bfc8;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;		
+}
+.aboutGoFIU:hover{
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray;
+}
+.adminMenu{
+	background: #f7c84b;
+	border:1px solid #d6af46;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+
+
+}
+.adminMenu:hover{
+
+		-moz-box-shadow: 1px 1px 1px gray;
+   	-webkit-box-shadow: 1px 1px 1px gray;
+	
+}
+.adminMenu:active{
+	border: 1px solid black;
+}
+body{background-color: #e1efff;}
+
+
+.bookmarklet{
+ 	background: #f9eabd;
+ 	border:1px solid #cabe99;
+ 	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+	
+	
+}
+.bookmarklet:hover{
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray;
+}
+
+.bookmarklet p{
+	text-align: center;
+	margin-top: 0.75em;
+	margin-bottom: 0;
+}
+
+.createUrl{
+	margin-top:4px;
+	background: #d3effa;
+	border:1px solid #94b7c4;
+	line-height: 1.5em;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+
+
+}
+.createUrl:hover{
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray;
+}
+.createLayer{}
+
+.createBunch{
+	background-color: #e3f0f5;
+	border:1px solid #a7bfc8;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+	
+	
+}
+.createBunch:hover{
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray;
+}
+.faqInfo{
+	padding-left: 15px;
+	padding-right:0px;
+	background: #fffffa;
+		border:1px solid #c8c8ab;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;	
+}
+#footer{text-align: center;}
+
+
+#header{text-align: center; padding-bottom:18px;}
+
+
+.loginDiv{
+	background-color: #e3f0f5;
+	border:1px solid #a7bfc8;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+
+}
+.loginDiv:hover{
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray;
+}
+.message{
+	background-color: #b2e9b2;
+	padding: 9px 0px 9px 9px;
+	text-align: center;
+}
+
+.error-message{
+	border: 3px solid 	#CE6F6F;
+	background: #f28279;
+	color: #9C2F2F;
+	
+	position: absolute;
+	padding:7px 12px;
+	text-align: left;
+	width:250px;
+	margin-left:10px;
+	/*
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+	-moz-box-shadow: 4px 4px 10px #888;
+	-webkit-box-shadow:  4px 4px 10px #888;
+	-khtml-box-shadow:	4px 4px 10px #888;*/
+}
+/*for error-messages on the side*/
+/*.tip{position: absolute; background-color: #ffa2a2; padding: 8px 0px 8px 9px;}*/
+
+
+.submitDiv{}
+
+.reserveAlias{
+	background-color: #ece98f;
+	border:1px solid #c4c049;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+
+}
+
+.reserveAlias:hover{	
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray;
+
+}
+.renewAlias{}
+
+.topLinks{
+	background-color: #ece98f;
+	border:1px solid #b4b268;
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-khtml-border-radius:5px; 
+	-webkit-border-radius:5px;
+	word-wrap: break-word;
+}
+
+.topLinks:hover{
+		
+	-moz-box-shadow: 1px 1px 2px gray;
+   	-webkit-box-shadow: 1px 1px 2px gray;
+}
+/* Table
+----------------------------------------------- */
+table.aliases{
+	width: 100%;
+	margin: 0px 40px;
+	padding: 0px 0px 32px 0px;
+
+		-moz-box-shadow: 2px 2px 5px #888;
+	-webkit-box-shadow:  2px 2px 5px #888;
+	-khtml-box-shadow:	2px 2px 5px #888;
+}
+table.aliases th{
+	color: black;
+	font: bold  1em "Trebuchet MS", Verdana, Arial, Helvetica,sans-serif;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 2px solid #effaff;
+	border-top: 1px solid #effaff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 6px 6px 6px 12px;
+	background: #b6d6e6 url(../img/bg_header.jpg) no-repeat;
+	text-align: center;
+	height: 40px;
+}
+
+th#views{
+	width:12%;
+}
+th#daysLeft{
+ 	width:18%;
+}
+th#renew{
+ 	width:18%;
+}
+th#drop{
+ 	width:18%;
+}
+
+table#aliasTable tr{
+	text-align: center;
+}
+table.aliases tr{
+	text-align:left;
+	
+}
+table.aliases tbody tr{
+	font-size:1em;
+	background: white;
+	
+}
+table.aliases td{
+	border-left:1px solid #C1DAD7;
+	border-right: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	
+	padding: 6px 6px 6px 12px;
+	color: #6D929B;
+	z-index: 0;
+}
+table.aliases td a{
+	color:#095382;
+}
+table.aliases td.alt{
+	background: #F5FAFA;
+	color: #B4AA9D;
+}
+table.aliases th.headerSortDown:after{
+  content: " " url(../img/arrow_down.gif);
+}
+
+table.aliases th.headerSortUp:after{
+  content: " " url(../img/arrow_up.gif);
+}
+
+
+table.aliases th.headerSortDown,
+table.aliases th.headerSortUp{
+  background-color:#f7ef90;
+}
+
+table.aliases thead tr th:hover{ 
+      background: #f7ef90; 
+}
+
+div table.aliases tbody tr:hover{
+	background-color:#fffbcb;
+}  
+
+/* Typography
+----------------------------------------------- */
+
+#flashMessage{
+	font: bold  2.08em "Trebuchet MS", Verdana, Arial, Helvetica,sans-serif;
+	padding-right:10px;
+	padding-left:5px;
+
+}
+.linkMessage{
+	font: bold  2.08em "Trebuchet MS", Verdana, Arial, Helvetica,sans-serif;
+	padding-right:10px;
+}
+.bad_flash{
+	border: 3px solid #CE6F6F;
+	background: #f28279;
+	color: #9C2F2F;
+	padding-right:10px;
+
+}
+
+.loginDiv div.forgotPassword p{text-align: center;}
+
+h2.headings, h3.headings{text-align: center;}
+
+h2.faq{
+	font-family: Nevis, Helvetica, sans-serif;
+	font-size:3.75em;
+	text-align: center;
+}
+
+.bookmarklet h3.headings{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+h4.typeHeading{
+	font-family: Nevis, Helvetica, sans-serif;
+}
+input.fields{	
+	font-size: 1.39em;
+}
+label{font-size:1.7em;}
+span#gofiu{
+	font-size: 1.5em;
+}
+
+
+
+/* Headlines
+----------------------------------------------- */
+
+
+/* Header
+----------------------------------------------- */
+
+/* Andre's Zebra stripe - You can kill me if you want */
+
+.zebra_0 {
+	background-color:grey;
+}
+
+.zebra_1 {
+	background-color:white;
+}
